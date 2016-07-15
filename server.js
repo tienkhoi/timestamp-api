@@ -1,7 +1,7 @@
 var express = require('express');
 var moment = require('moment');
 var app = express();
-
+var port = process.env.PORT || 8080;
 app.get("/:userInput", function(req, res) {
 
     var userInput = req.params.userInput;
@@ -37,6 +37,6 @@ app.get("/:userInput", function(req, res) {
 
 })
 
-app.listen(80, function() {
+app.listen(port, function() {
    
 })
