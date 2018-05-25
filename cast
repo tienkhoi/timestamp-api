@@ -1,0 +1,2 @@
+curl -G -v -X POST "http://192.168.1.2/launch/dev" --data-urlencode "streamformat=mp4" --data-urlencode "url=http://192.168.1.17/jfl3.mp4"
+​
